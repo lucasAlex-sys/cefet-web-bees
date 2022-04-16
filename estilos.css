@@ -1,0 +1,81 @@
+html {
+    height: 100%;
+}
+
+body {
+    font-size: 20px;
+    text-align: justify;
+    background-image: linear-gradient(0deg, #3CDB5A, rgba(255, 255, 255, 0.762), #B0D0F9);
+    margin: 0 10% 0;
+}
+
+img[src="imgs/logomarca.png"] {
+    display: block;
+    margin: auto;
+}
+
+.curiosidade>img[src="imgs/icone-curiosidade.png"] {
+    margin-right: 20px;
+    float: left;
+}
+
+p.curiosidade {
+    background-image: url("/imgs/favo-de-mel.png");
+    border: solid 1px #F5A92E;
+    border-radius: 5px;
+    padding: 15px;
+    margin-top: 3%;
+}
+
+.casta-de-abelha {
+    border: 5px double #F5A92E;
+    border-radius: 50%;
+}
+
+img[src="imgs/operaria.png"] {
+    float: left;
+    margin-right: 2%;
+}
+
+img[src="imgs/zangao.png"] {
+    float: right;
+    margin-left: 2%;
+}
+
+#logo {
+    background-color: #ffffff75;
+    box-shadow: 4px 4px 4px #0003;
+    padding: 30px;
+}
+
+a[href$="html"]:link {
+    color: green;
+}
+a[href$="html"]:hover {
+    color: #fa0000;
+}
+a[href$="html"]:active {
+    color: gold;
+  }
+a[href$="html"]:visited {
+    color: gray;  
+}
+p:last-of-type{
+    text-align: right;
+}
+a[href^="http"]:link {
+    color: rgba(0, 128, 0, 0.427);
+}
+a[href^="http"]:hover {
+    color: #fa000073;
+}
+a[href^="http"]:active {
+    color: rgba(255, 217, 0, 0.391);
+  }
+a[href^="http"]:visited {
+    color: rgba(128, 128, 128, 0.839);  
+}
+
+img:not([alt]){
+    border-color: red;
+}
