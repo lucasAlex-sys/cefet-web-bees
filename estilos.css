@@ -3,10 +3,12 @@ html {
 }
 
 body {
+    background-image: linear-gradient( 0deg, #32cd44, #f1e87e, #e7effa, #B0D0F9 );
     font-size: 20px;
-    text-align: justify;
-    background-image: linear-gradient(0deg, #3CDB5A, rgba(255, 255, 255, 0.762), #B0D0F9);
-    margin: 0 10% 0;
+    margin-bottom: 0px;
+    margin-left: 130px;
+    margin-top: 0px;
+    margin-right: 130px;
 }
 
 img[src="imgs/logomarca.png"] {
@@ -47,6 +49,9 @@ img[src="imgs/zangao.png"] {
     box-shadow: 4px 4px 4px #0003;
     padding: 30px;
 }
+img:not([alt]){
+    border: 5px solid red !important;
+}
 
 a[href$="html"]:link {
     color: green;
@@ -76,6 +81,3 @@ a[href^="http"]:visited {
     color: rgba(128, 128, 128, 0.839);  
 }
 
-img:not([alt]){
-    border-color: red;
-}
